@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Tizen TraineeApp" />
+
+    <title>TraineeApp</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id="container">
+    
+    
+        <div id="pageInit" class="page">
+			<div id="InitHeader" class="header">
+				<div id="InitHeaderText" class="headerText">TraineeApp</div>
+			</div>
+
+			<div id="InitContents" class="contents">
+				<div id="InitDetail" class="detail"></div>
+
+				<div id="InitFooter" class="footer">
+					<div id="btnDiet" class="buttonFooter1">
+						<div id="btnTextClear" class="buttonFooterText">Diet</div>
+					</div>
+					<div id="btnSchedule" class="buttonFooter2">
+						<div id="btnTextSchedule" class="buttonFooterText">Schedule</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+    
+        <div id="pageInput" class="page">
+            <div id="inputHeader" class="header">
+                <div id="inputHeaderText" class="headerText">
+                   FoodInput
+                </div>
+            </div>
+            <div id="inputContents" class="contents">
+                <div id="inputDetail" class="detail">
+                    <div id="inputDataBox">
+                        <p>Food<br />
+                        <input type="text" id="txtFood"></p>
+                        <p>quantity<br />
+                        <input type="text" id="txtquantity"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="inputFooter" class="footer">
+                <div id="btnSubmit" class="buttonFooter">
+                    <div id="btnTextSubmit" class="buttonFooterText">
+                        Submit
+                    </div>
+                </div>
+                <div id="btnInputBack" class="buttonFooter">
+                    <div id="btnTextInputBack" class="buttonFooterText">
+                        Back
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pageResult" class="page">
+            <div id="resultHeader" class="header">
+                <div id="resultHeaderText" class="headerText">
+                    DietList
+                </div>
+            </div>
+            <div id="resultContents" class="contents">
+                <div id="resultDetail" class="detail">
+                </div>
+            </div>
+            <div id="resultFooter" class="footer">
+                <div id="btnClear" class="buttonFooter">
+                    <div id="btnTextClear" class="buttonFooterText">
+                        Clear
+                    </div>
+                </div>
+                <div id="btnInputPage" class="buttonFooter">
+                    <div id="btnTextInputPage" class="buttonFooterText">
+                        Input
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+ 
+
+		<div id="pageSchedule" class="page">
+			<div id="ScheduleHeader" class="header">
+				<div id="ScheduleHeaderText" class="headerText">tSchedule</div>
+			</div>
+			<div id="ScheduleContents" class="contents">
+				<div id="ScheduleDetail" class="detail">
+					<div class="content-padding">
+						<input id="theDate" type="date" name="date" style="width: 100%"  />
+					</div>
+					
+				</div>
+			</div>
+
+
+			 <div id="ScheduleFooter" class="footer">
+				<div id="btnDate" class="buttonFooter">
+					<div id="btnTextDate" class="buttonFooterText1">setDate</div>
+				</div>
+				<div id="btnlSchedule" class="buttonFooter">
+					<div id="btnTextlSchedule" class="buttonFooterText1">loadSchedule</div>
+				</div>
+			</div> 
+		</div>
+		
+		<div id="divPopup">
+            <div id="divPopupContents">
+                <div id="divPopupDetail">
+                </div>
+            </div>
+            <div id="divPopupFooter">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
